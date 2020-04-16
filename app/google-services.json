@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "267176035206",
+    "firebase_url": "https://contact-tracing-589b1.firebaseio.com",
+    "project_id": "contact-tracing-589b1",
+    "storage_bucket": "contact-tracing-589b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267176035206:android:821aee355e27ec52066207",
+        "android_client_info": {
+          "package_name": "io.bluetrace.opentrace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267176035206-3gsrouvc5a01p1u3mapqnjs8db0n6lnu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.bluetrace.opentrace",
+            "certificate_hash": "3f7ac8bf29414ed1e136784f0220938b94937860"
+          }
+        },
+        {
+          "client_id": "267176035206-ktkk3cc6srj26en68klkm0tec9q51hff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCewjrPejgoclZcxbeQsKMTBg7kXJvlmeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267176035206-ktkk3cc6srj26en68klkm0tec9q51hff.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "267176035206-iblq01f7t675o6bq85agrkubb92vf2jn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.amigocloud.ac-contact-tracing"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
