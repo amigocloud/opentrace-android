@@ -1,6 +1,6 @@
 package io.bluetrace.opentrace.protocol
 
-import io.bluetrace.opentrace.BuildConfig
+import com.amigocloud.contact_tracing.BuildConfig
 import io.bluetrace.opentrace.protocol.v2.BlueTraceV2
 import java.util.*
 

@@ -5,6 +5,8 @@ import android.net.Uri
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
+import com.amigocloud.contact_tracing.BuildConfig
+import com.amigocloud.contact_tracing.R
 import io.bluetrace.opentrace.onboarding.PreOnboardingActivity
 
 class SplashActivity : AppCompatActivity() {

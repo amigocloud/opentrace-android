@@ -15,6 +15,7 @@ import android.os.Bundle
 import android.os.IBinder
 import android.os.PowerManager
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
+import com.amigocloud.contact_tracing.BuildConfig
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
@@ -24,7 +25,6 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import pub.devrel.easypermissions.EasyPermissions
-import io.bluetrace.opentrace.BuildConfig
 import io.bluetrace.opentrace.Preference
 import io.bluetrace.opentrace.Utils
 import io.bluetrace.opentrace.bluetooth.BLEAdvertiser

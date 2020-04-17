@@ -31,12 +31,12 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "io.bluetrace.opentrace"
-        resValue "string", "build_config_package", "io.bluetrace.opentrace"
+        applicationId "com.amigocloud.contact_tracing"
+        resValue "string", "build_config_package", "com.amigocloud.contact_tracing"
         minSdkVersion 22
         targetSdkVersion 29
-        versionCode 41
-        versionName "1.0.41"
+        versionCode 51
+        versionName "1.0.51"
         buildConfigField "String", "GITHASH", "\"${getGitHash()}\""
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 

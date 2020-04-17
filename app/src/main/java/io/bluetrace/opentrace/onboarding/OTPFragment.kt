@@ -12,9 +12,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
 import androidx.core.text.HtmlCompat
+import com.amigocloud.contact_tracing.R
 import kotlinx.android.synthetic.main.fragment_otp.*
 import io.bluetrace.opentrace.Preference
-import io.bluetrace.opentrace.R
 import io.bluetrace.opentrace.Utils
 import io.bluetrace.opentrace.logging.CentralLog
 import kotlin.math.floor

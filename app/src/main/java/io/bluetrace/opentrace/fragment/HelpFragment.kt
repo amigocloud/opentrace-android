@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import io.bluetrace.opentrace.R
+import com.amigocloud.contact_tracing.R
 
 
 class HelpFragment : Fragment() {

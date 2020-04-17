@@ -17,3 +17,4 @@ app/release
 **/Constants.*
 
 gradle.properties
+google-services.json

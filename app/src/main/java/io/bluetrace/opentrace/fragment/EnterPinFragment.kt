@@ -12,6 +12,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.FileProvider
 import androidx.fragment.app.Fragment
+import com.amigocloud.contact_tracing.BuildConfig
+import com.amigocloud.contact_tracing.R
 import com.google.android.gms.tasks.Task
 import com.google.firebase.functions.FirebaseFunctions
 import com.google.firebase.functions.HttpsCallableResult
@@ -24,8 +26,6 @@ import io.reactivex.disposables.Disposable
 import io.reactivex.functions.BiFunction
 import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.fragment_upload_enterpin.*
-import io.bluetrace.opentrace.BuildConfig
-import io.bluetrace.opentrace.R
 import io.bluetrace.opentrace.TracerApp
 import io.bluetrace.opentrace.Utils
 import io.bluetrace.opentrace.logging.CentralLog

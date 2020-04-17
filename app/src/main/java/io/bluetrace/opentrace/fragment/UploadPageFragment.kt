@@ -7,10 +7,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
+import com.amigocloud.contact_tracing.BuildConfig
+import com.amigocloud.contact_tracing.R
 import kotlinx.android.synthetic.main.fragment_upload_page.*
-import io.bluetrace.opentrace.BuildConfig
 import io.bluetrace.opentrace.MainActivity
-import io.bluetrace.opentrace.R
 import io.bluetrace.opentrace.status.persistence.StatusRecord
 import io.bluetrace.opentrace.streetpass.persistence.StreetPassRecord
 

@@ -5,9 +5,9 @@ import android.webkit.WebChromeClient
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.fragment.app.FragmentActivity
+import com.amigocloud.contact_tracing.BuildConfig
+import com.amigocloud.contact_tracing.R
 import kotlinx.android.synthetic.main.webview.*
-import io.bluetrace.opentrace.BuildConfig
-import io.bluetrace.opentrace.R
 import io.bluetrace.opentrace.logging.CentralLog
 
 class WebViewActivity : FragmentActivity() {

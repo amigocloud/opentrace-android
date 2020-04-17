@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import io.bluetrace.opentrace.R
+import com.amigocloud.contact_tracing.R
 import io.bluetrace.opentrace.logging.CentralLog
 
 

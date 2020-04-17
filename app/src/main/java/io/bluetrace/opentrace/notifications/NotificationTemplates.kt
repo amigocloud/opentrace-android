@@ -6,8 +6,8 @@ import android.content.Context
 import android.content.Intent
 import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat
+import com.amigocloud.contact_tracing.R
 import io.bluetrace.opentrace.MainActivity
-import io.bluetrace.opentrace.R
 import io.bluetrace.opentrace.onboarding.OnboardingActivity
 import io.bluetrace.opentrace.services.BluetoothMonitoringService.Companion.PENDING_ACTIVITY
 import io.bluetrace.opentrace.services.BluetoothMonitoringService.Companion.PENDING_WIZARD_REQ_CODE

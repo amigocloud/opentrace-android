@@ -3,8 +3,8 @@ package io.bluetrace.opentrace.onboarding
 import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.FragmentActivity
+import com.amigocloud.contact_tracing.R
 import kotlinx.android.synthetic.main.main_activity_onboarding.*
-import io.bluetrace.opentrace.R
 
 class PreOnboardingActivity : FragmentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

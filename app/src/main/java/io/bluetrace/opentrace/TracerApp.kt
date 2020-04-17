@@ -3,6 +3,7 @@ package io.bluetrace.opentrace
 import android.app.Application
 import android.content.Context
 import android.os.Build
+import com.amigocloud.contact_tracing.BuildConfig
 import io.bluetrace.opentrace.idmanager.TempIDManager
 import io.bluetrace.opentrace.logging.CentralLog
 import io.bluetrace.opentrace.services.BluetoothMonitoringService

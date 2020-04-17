@@ -5,8 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.amigocloud.contact_tracing.R
 import kotlinx.android.synthetic.main.fragment_upload_uploadcomplete.*
-import io.bluetrace.opentrace.R
 
 class UploadCompleteFragment : Fragment() {
     override fun onCreateView(

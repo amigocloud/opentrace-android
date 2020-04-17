@@ -5,9 +5,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.amigocloud.contact_tracing.R
 import kotlinx.android.synthetic.main.fragment_upload_verifycaller.*
 import io.bluetrace.opentrace.Preference
-import io.bluetrace.opentrace.R
 
 class VerifyCallerFragment : Fragment() {
     override fun onCreateView(

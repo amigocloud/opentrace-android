@@ -31,15 +31,15 @@ import com.google.firebase.functions.HttpsCallableResult
 import kotlinx.android.synthetic.main.activity_onboarding.*
 import pub.devrel.easypermissions.AfterPermissionGranted
 import pub.devrel.easypermissions.EasyPermissions
-import io.bluetrace.opentrace.BuildConfig
 import io.bluetrace.opentrace.Preference
-import io.bluetrace.opentrace.R
 import io.bluetrace.opentrace.Utils
 import io.bluetrace.opentrace.idmanager.TempIDManager
 import io.bluetrace.opentrace.logging.CentralLog
 import io.bluetrace.opentrace.services.BluetoothMonitoringService
 import java.util.concurrent.TimeUnit
 import kotlin.properties.Delegates
+import com.amigocloud.contact_tracing.BuildConfig
+import com.amigocloud.contact_tracing.R
 
 private const val REQUEST_ENABLE_BT = 123
 private const val PERMISSION_REQUEST_ACCESS_LOCATION = 456
@@ -58,7 +58,7 @@ class OnboardingActivity : FragmentActivity(),
     private var speedUp = false
     private var resendingCode = false
 
-    private val functions = FirebaseFunctions.getInstance(BuildConfig.FIREBASE_REGION)
+    private val functions = FirebaseFunctions.getInstance(com.amigocloud.contact_tracing.BuildConfig.FIREBASE_REGION)
     private var credential: PhoneAuthCredential by Delegates.notNull()
     private var verificationId: String by Delegates.notNull()
     private var resendToken: PhoneAuthProvider.ForceResendingToken by Delegates.notNull()

@@ -1,6 +1,6 @@
 package io.bluetrace.opentrace.bluetooth.gatt
 
-import io.bluetrace.opentrace.BuildConfig
+import com.amigocloud.contact_tracing.BuildConfig
 
 const val ACTION_RECEIVED_STREETPASS =
     "${BuildConfig.APPLICATION_ID}.ACTION_RECEIVED_STREETPASS"

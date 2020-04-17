@@ -3,7 +3,7 @@ package io.bluetrace.opentrace.bluetooth.gatt
 import android.bluetooth.BluetoothGattCharacteristic
 import android.bluetooth.BluetoothGattService
 import android.content.Context
-import io.bluetrace.opentrace.BuildConfig
+import com.amigocloud.contact_tracing.BuildConfig
 import java.util.*
 import kotlin.properties.Delegates
 

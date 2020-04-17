@@ -9,9 +9,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
+import com.amigocloud.contact_tracing.R
 import kotlinx.android.synthetic.main.fragment_register_number.*
 import io.bluetrace.opentrace.Preference
-import io.bluetrace.opentrace.R
 import io.bluetrace.opentrace.TracerApp
 import io.bluetrace.opentrace.Utils
 import io.bluetrace.opentrace.logging.CentralLog

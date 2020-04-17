@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.bluetrace.opentrace">
+    package="com.amigocloud.contact_tracing">
 
     <uses-feature
         android:name="android.hardware.bluetooth_le"
@@ -17,7 +17,7 @@
     <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
 
     <application
-        android:name=".TracerApp"
+        android:name="io.bluetrace.opentrace.TracerApp"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -36,7 +36,7 @@
         </provider>
 
         <activity
-            android:name=".SplashActivity"
+            android:name="io.bluetrace.opentrace.SplashActivity"
             android:configChanges="keyboardHidden"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -46,23 +46,23 @@
         </activity>
 
         <activity
-            android:name=".onboarding.OnboardingActivity"
+            android:name="io.bluetrace.opentrace.onboarding.OnboardingActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".onboarding.HowItWorksActivity"
+            android:name="io.bluetrace.opentrace.onboarding.HowItWorksActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".onboarding.PreOnboardingActivity"
+            android:name="io.bluetrace.opentrace.onboarding.PreOnboardingActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".onboarding.WebViewActivity"
+            android:name="io.bluetrace.opentrace.onboarding.WebViewActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name="io.bluetrace.opentrace.MainActivity"
             android:screenOrientation="portrait" />
 
-        <receiver android:name=".boot.StartOnBootReceiver">
+        <receiver android:name="io.bluetrace.opentrace.boot.StartOnBootReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.intent.action.QUICKBOOT_POWERON" />
@@ -70,7 +70,7 @@
         </receiver>
 
         <service
-            android:name=".services.FCMService"
+            android:name="io.bluetrace.opentrace.services.FCMService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -89,25 +89,25 @@
             android:resource="@color/notification_tint" />
 
         <activity
-            android:name=".permissions.RequestFileWritePermission"
+            android:name="io.bluetrace.opentrace.permissions.RequestFileWritePermission"
             android:launchMode="singleTask"
             android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" />
 
         <service
-            android:name=".services.BluetoothMonitoringService"
+            android:name="io.bluetrace.opentrace.services.BluetoothMonitoringService"
             android:foregroundServiceType="location" />
 
         <activity
-            android:name=".PeekActivity"
+            android:name="io.bluetrace.opentrace.PeekActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.DebugNoActionBar" />
 
         <activity
-            android:name=".PlotActivity"
+            android:name="io.bluetrace.opentrace.PlotActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.DebugNoActionBar" />
 
-        <receiver android:name=".receivers.UpgradeReceiver">
+        <receiver android:name="io.bluetrace.opentrace.receivers.UpgradeReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
             </intent-filter>

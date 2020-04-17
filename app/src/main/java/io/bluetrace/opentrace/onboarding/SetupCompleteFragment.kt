@@ -7,10 +7,10 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.amigocloud.contact_tracing.R
 import com.google.firebase.analytics.FirebaseAnalytics
 import io.bluetrace.opentrace.MainActivity
 import io.bluetrace.opentrace.Preference
-import io.bluetrace.opentrace.R
 import io.bluetrace.opentrace.logging.CentralLog
 
 class SetupCompleteFragment : OnboardingFragmentInterface() {

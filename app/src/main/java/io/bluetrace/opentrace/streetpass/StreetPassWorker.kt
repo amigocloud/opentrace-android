@@ -7,7 +7,7 @@ import android.content.Intent
 import android.content.IntentFilter
 import android.os.Handler
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
-import io.bluetrace.opentrace.BuildConfig
+import com.amigocloud.contact_tracing.BuildConfig
 import io.bluetrace.opentrace.Utils
 import io.bluetrace.opentrace.bluetooth.gatt.ACTION_DEVICE_PROCESSED
 import io.bluetrace.opentrace.bluetooth.gatt.CONNECTION_DATA

@@ -9,11 +9,11 @@ import android.media.RingtoneManager
 import android.os.Build
 import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat
+import com.amigocloud.contact_tracing.BuildConfig
+import com.amigocloud.contact_tracing.R
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
-import io.bluetrace.opentrace.BuildConfig
 import io.bluetrace.opentrace.Preference
-import io.bluetrace.opentrace.R
 import io.bluetrace.opentrace.SplashActivity
 import io.bluetrace.opentrace.logging.CentralLog
 import io.bluetrace.opentrace.services.BluetoothMonitoringService.Companion.PUSH_NOTIFICATION_ID

@@ -3,7 +3,7 @@ package io.bluetrace.opentrace.logging
 import android.os.Build
 import android.os.PowerManager
 import android.util.Log
-import io.bluetrace.opentrace.BuildConfig
+import com.amigocloud.contact_tracing.BuildConfig
 
 
 class CentralLog {

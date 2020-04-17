@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.amigocloud.contact_tracing.R
 import kotlinx.android.synthetic.main.recycler_view_item.view.*
 import io.bluetrace.opentrace.streetpass.persistence.StreetPassRecord
 import io.bluetrace.opentrace.streetpass.view.StreetPassRecordViewModel

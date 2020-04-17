@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
+import com.amigocloud.contact_tracing.R
 import io.bluetrace.opentrace.MainActivity
-import io.bluetrace.opentrace.R
 
 class ForUseByOTCFragment : Fragment() {
     override fun onCreateView(
