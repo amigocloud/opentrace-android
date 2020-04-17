@@ -13,14 +13,15 @@
         app:layout_constraintBottom_toTopOf="@id/footer">
 
         <ImageView
-            style="@style/OnboardingImage"
             android:id="@+id/on_boarding_banner"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/OnboardingImage"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
             android:src="@drawable/ic_opentrace_blue_transparent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <androidx.appcompat.widget.AppCompatTextView
             style="@style/OnboardingTitle"

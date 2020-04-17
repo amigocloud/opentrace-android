@@ -27,10 +27,11 @@
 
         <ImageView
             android:layout_width="0dp"
-            android:layout_weight="0.7"
             android:layout_height="wrap_content"
+            android:layout_weight="0.7"
             android:src="@drawable/ic_opentrace_blue_transparent"
-            app:layout_constraintTop_toTopOf="@+id/center" />
+            app:layout_constraintTop_toTopOf="@+id/center"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <View
             android:layout_weight="0.15"
