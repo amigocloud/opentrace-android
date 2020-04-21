@@ -22,7 +22,7 @@
     <string name="invalid_number">Número de celular inválido</string>
 
     <string name="enter_otp">Ingresa tu código</string>
-    <string name="otp_sent">Un código de 6 dígitos se ha enviado a %.</string>
+    <string name="otp_sent">Un código de 6 dígitos se ha enviado a %s.</string>
     <string name="resend_code"><u>Reenviar código</u></string>
 
     <string name="setup_app_permission">\Configura los permisos de la aplicación</string>
