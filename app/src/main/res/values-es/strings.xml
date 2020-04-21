@@ -5,15 +5,15 @@
     <string name="permission_write_rationale">AC Contact Tracing necesita guardar archivos para los registros (Solo para versiones Debug)</string>
     <string name="ble_not_supported">Este dispositivo no funciona con BLE</string>
 
-    <string name="tv_onboarding_title">Ayuda a prevenir el contagio del COVID-19 by prendiendo tu Bluetooth</string>
+    <string name="tv_onboarding_title">Ayuda a prevenir el contagio del COVID-19 prendiendo tu Bluetooth</string>
     <string name="tv_onboarding_desc">Si tuviste contacto cercano con un caso confirmado de COVID-19, ayudaremos a las autoridades a ubicarte más rápido y proveerte de la guía y cuidado necesarios.</string>
-    <string name="tv_onboarding_desc_sub">Para proteger a las personas de tu alrededor, OTC también podrá solicitarte que compartas tu data.</string>
+    <string name="tv_onboarding_desc_sub">Para proteger a las personas de tu alrededor, AC también podrá solicitarte que compartas tu data.</string>
     <string name="i_want_to_help">Quiero ayudar</string>
 
     <string name="tv_howitworks_title">¿Cómo funciona AC Contact Tracing?</string>
-    <string name="tv_howitworks_explanation_1">Usamos la señal Bluetooth para determinar si estás cerca de otro usuario de signals AC Contact Tracing.</string>
+    <string name="tv_howitworks_explanation_1">Usamos la señal Bluetooth para determinar si estás cerca de otro usuario de AC Contact Tracing.</string>
     <string name="tv_howitworks_explanation_2">La data de proximidad es encriptada y guardada solamente en tu teléfono.</string>
-    <string name="tv_howitworks_explanation_3">OTC pedirá tu consentimiendo para cargar la data si es que es necesaria para el contact tracing. </string>
+    <string name="tv_howitworks_explanation_3">AC pedirá tu consentimiendo para cargar la data si es que es necesaria para el contact tracing. </string>
     <string name="mobile_number">Número de celular</string>
     <string name="register_number">Registra tu número de celular</string>
     <string name="register_number_details">Te contactaremos si has estado cerca a un caso confirmado de COVID-19.</string>
@@ -22,7 +22,7 @@
     <string name="invalid_number">Número de celular inválido</string>
 
     <string name="enter_otp">Ingresa tu código</string>
-    <string name="otp_sent">Un código de 6 dígitos se ha enviado a %s.</string>
+    <string name="otp_sent">Un código de 6 dígitos se ha enviado a %.</string>
     <string name="resend_code"><u>Reenviar código</u></string>
 
     <string name="setup_app_permission">\Configura los permisos de la aplicación</string>
@@ -54,12 +54,12 @@
     <string name="push_noti">Notificaciones: Habilitadas</string>
     <string name="share_this_app">Comparte esta aplicación</string>
     <string name="ask_friend">Haz que tu familia y amigos se unan</string>
-    <string name="help_us_identify">Ayuda a detener el contagio habiliantando todos los permisos de la aplicación</string>
+    <string name="help_us_identify">Ayuda a detener el contagio habilitando todos los permisos de la aplicación</string>
     <string name="restart_app_setup">Completa la configuracion de la aplicación</string>
-    <string name="upload_data">Carga data</string>
+    <string name="upload_data">Cargar datos</string>
     <string name="for_official_use">Para el uso de los administradores</string>
     <string name="data_uploaded">La data ha sido cargada a los administradores</string>
-    <string name="upload_agreement">Al cargar la data, aceptas compartir con OTC tu data de proximidad de los últimos 21 días. <b>Nosotros no recolectamos geolocalización o datos personales.</b></string>
+    <string name="upload_agreement">Al cargar la data, aceptas compartir con AC tu data de proximidad de los últimos 21 días. <b>Nosotros no recolectamos geolocalización o datos personales.</b></string>
     <string name="enter_code">Ingresar código</string>
     <string name="submit">Enviar</string>
     <string name="open_location_setting">La aplicación necesita permisos de ubicación para poder funcionar. ¿Quieres habilitar la ubicación?</string>
@@ -76,16 +76,16 @@
     <string name="unknown_error">Un error ha ocurrido. Por favor intenta de nuevo</string>
     <string name="must_be_six_digit">El número celular tiene que tener 9 dígitos</string>
     <string name="invalid_user">Tu cuenta ha sido desactivada. Por favor contacta a soporte.</string>
-    <string name="too_many_requests">Hemos recibido muchos requisitos. Por favor intenta de nuevo.</string>
+    <string name="too_many_requests">Hemos recibido muchos requisitos en simultaneo. Por favor intenta de nuevo.</string>
 
     <string name="privacy_safeguards"><u>privacy safeguards</u></string>
 
-    <string name="service_ok_title">AC Contact Tracing está escaneando para mantenerte a salvo! :)</string>
+    <string name="service_ok_title">¡AC Contact Tracing está escaneando para mantenerte a salvo! :)</string>
     <string name="service_ok_body">Reinicia el teléfono si esta notificación desaparece.</string>
 
-    <string name="service_not_ok_title">Oh no! :(</string>
+    <string name="service_not_ok_title">¡Oh no! :(</string>
     <string name="service_not_ok_body">AC Contact Tracing no está escaneando.</string>
     <string name="service_not_ok_action">Revisa el app ahora</string>
 
-    <string name="share_message">Únete y detén el contagio del COVID-19! Descarga AC Contact Tracing. Anda a: https://bluetrace.io</string>
+    <string name="share_message">Únete y detén el contagio del COVID-19! Descarga AC Contact Tracing.</string>
 </resources>
